@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "taxprep-agent-cli"
+version = "0.1.1"
+description = "Local, transactional tax intake and evidence workflow for agents"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+taxprep = "taxprep.cli:main"
+
+[tool.setuptools]
+packages = ["taxprep"]
+
+[tool.setuptools.package-data]
+taxprep = ["catalog.json"]

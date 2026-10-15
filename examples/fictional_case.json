@@ -1,0 +1,3006 @@
+{
+  "schema_version": "2.0",
+  "catalog_year": 2025,
+  "case_id": "FICTIONAL \u2014 Alex Morgan \u2014 2025",
+  "created_at": "2026-10-15T00:07:12.524658+00:00",
+  "screens": {
+    "WAGE": {
+      "value": true,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524762+00:00"
+    },
+    "INVEST": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524772+00:00"
+    },
+    "DISPOSE": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524777+00:00"
+    },
+    "DIGITAL": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524782+00:00"
+    },
+    "RETIRE": {
+      "value": true,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524785+00:00"
+    },
+    "BUSINESS": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524789+00:00"
+    },
+    "RENTAL": {
+      "value": true,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524792+00:00"
+    },
+    "PASS": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524796+00:00"
+    },
+    "OTHER": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524800+00:00"
+    },
+    "HOME": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524803+00:00"
+    },
+    "ADJUST": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524807+00:00"
+    },
+    "ITEMIZE": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524810+00:00"
+    },
+    "CHARITY": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524814+00:00"
+    },
+    "EDUCATION": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524818+00:00"
+    },
+    "CARE": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524822+00:00"
+    },
+    "HEALTH": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524827+00:00"
+    },
+    "HSA": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524830+00:00"
+    },
+    "ENERGY": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524834+00:00"
+    },
+    "VEHICLE": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524837+00:00"
+    },
+    "FOREIGN": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524841+00:00"
+    },
+    "DEBT": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524844+00:00"
+    },
+    "DISASTER": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524848+00:00"
+    },
+    "GIFT": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524851+00:00"
+    },
+    "HOUSEHOLD": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524855+00:00"
+    },
+    "FARM": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524858+00:00"
+    },
+    "SPECIAL": {
+      "value": false,
+      "status": "confirmed",
+      "source": "user",
+      "reference": "explicit questionnaire answer",
+      "at": "2026-10-15T00:07:12.524862+00:00"
+    }
+  },
+  "entities": {
+    "CORE": [
+      {
+        "id": "return",
+        "label": "Return",
+        "owner_ids": [],
+        "answers": {
+          "CORE.year": {
+            "value": 2025,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524902+00:00"
+          },
+          "CORE.return_kind": {
+            "value": "Original",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524910+00:00"
+          },
+          "CORE.person_type": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524916+00:00"
+          },
+          "CORE.calendar": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524923+00:00"
+          },
+          "CORE.prior": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524927+00:00"
+          },
+          "CORE.prior_missing": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524932+00:00"
+          },
+          "CORE.notices": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524936+00:00"
+          },
+          "CORE.identity_issue": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524940+00:00"
+          },
+          "CORE.extension": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524944+00:00"
+          },
+          "CORE.special_deadline": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524948+00:00"
+          },
+          "CORE.authorized_sources": {
+            "value": "Fictional demo only. No connected account access authorized.",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524954+00:00"
+          },
+          "CORE.unusual": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524959+00:00"
+          }
+        }
+      }
+    ],
+    "PERSON": [
+      {
+        "id": "alex",
+        "label": "Alex Morgan",
+        "owner_ids": [],
+        "answers": {
+          "PERSON.role": {
+            "value": "Taxpayer",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524967+00:00"
+          },
+          "PERSON.identity": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524971+00:00"
+          },
+          "PERSON.citizenship": {
+            "value": "U.S. citizen all year",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524976+00:00"
+          },
+          "PERSON.age": {
+            "value": 38,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524982+00:00"
+          },
+          "PERSON.blind": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524986+00:00"
+          },
+          "PERSON.disabled": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524992+00:00"
+          },
+          "PERSON.student": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524997+00:00"
+          },
+          "PERSON.death": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525002+00:00"
+          },
+          "PERSON.claimed_elsewhere": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525007+00:00"
+          }
+        }
+      }
+    ],
+    "STATUS": [
+      {
+        "id": "return",
+        "label": "Return",
+        "owner_ids": [],
+        "answers": {}
+      }
+    ],
+    "STATE": [
+      {
+        "id": "tx",
+        "label": "Texas residency / source jurisdiction",
+        "owner_ids": [
+          "alex"
+        ],
+        "answers": {}
+      }
+    ],
+    "WAGE": [
+      {
+        "id": "northstar",
+        "label": "Northstar Studio \u2014 employer 1",
+        "owner_ids": [
+          "alex"
+        ],
+        "answers": {
+          "WAGE.owner": {
+            "value": "Alex Morgan",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525022+00:00"
+          },
+          "WAGE.w2_issued": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525027+00:00"
+          },
+          "WAGE.w2_correct": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525032+00:00"
+          },
+          "WAGE.tips": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525036+00:00"
+          },
+          "WAGE.overtime": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525041+00:00"
+          },
+          "WAGE.equity": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525045+00:00"
+          },
+          "WAGE.statutory": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525049+00:00"
+          },
+          "WAGE.misclassified": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525053+00:00"
+          },
+          "WAGE.benefits": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525057+00:00"
+          },
+          "WAGE.foreign": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525067+00:00"
+          },
+          "WAGE.deferral_excess": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525129+00:00"
+          }
+        }
+      },
+      {
+        "id": "harbor",
+        "label": "Harbor Design \u2014 employer 2",
+        "owner_ids": [
+          "alex"
+        ],
+        "answers": {
+          "WAGE.owner": {
+            "value": "Alex Morgan",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525142+00:00"
+          },
+          "WAGE.w2_issued": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525147+00:00"
+          },
+          "WAGE.w2_correct": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525151+00:00"
+          },
+          "WAGE.tips": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525155+00:00"
+          },
+          "WAGE.overtime": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525159+00:00"
+          },
+          "WAGE.equity": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525163+00:00"
+          },
+          "WAGE.statutory": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525168+00:00"
+          },
+          "WAGE.misclassified": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525171+00:00"
+          },
+          "WAGE.benefits": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525175+00:00"
+          },
+          "WAGE.foreign": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525179+00:00"
+          },
+          "WAGE.deferral_excess": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525183+00:00"
+          }
+        }
+      }
+    ],
+    "INVEST": [],
+    "DISPOSE": [],
+    "DIGITAL": [],
+    "RETIRE": [
+      {
+        "id": "ira",
+        "label": "Traditional IRA \u2014 Atlas Custody",
+        "owner_ids": [
+          "alex"
+        ],
+        "answers": {
+          "RETIRE.owner": {
+            "value": "Alex Morgan",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525202+00:00"
+          },
+          "RETIRE.type": {
+            "value": "Traditional IRA",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525207+00:00"
+          },
+          "RETIRE.contribution": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525212+00:00"
+          },
+          "RETIRE.contribution_details": {
+            "value": "Fictional: 2025 nondeductible contribution followed by a Roth conversion.",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525216+00:00"
+          },
+          "RETIRE.covered_plan": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525220+00:00"
+          },
+          "RETIRE.compensation": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525224+00:00"
+          },
+          "RETIRE.nondeductible": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525228+00:00"
+          },
+          "RETIRE.distribution": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525233+00:00"
+          },
+          "RETIRE.rollover": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525239+00:00"
+          },
+          "RETIRE.conversion": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525243+00:00"
+          },
+          "RETIRE.roth_distribution": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525247+00:00"
+          },
+          "RETIRE.early": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525251+00:00"
+          },
+          "RETIRE.inherited": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525255+00:00"
+          },
+          "RETIRE.rmd": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525259+00:00"
+          },
+          "RETIRE.qcd": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525263+00:00"
+          },
+          "RETIRE.excess": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525267+00:00"
+          },
+          "RETIRE.disaster": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525271+00:00"
+          },
+          "RETIRE.aftertax_plan": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525275+00:00"
+          }
+        }
+      }
+    ],
+    "BUSINESS": [],
+    "RENTAL": [
+      {
+        "id": "cedar",
+        "label": "Cedar Lane rental \u2014 fictional property",
+        "owner_ids": [
+          "alex"
+        ],
+        "answers": {
+          "RENTAL.owner": {
+            "value": "Alex Morgan",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525291+00:00"
+          },
+          "RENTAL.type": {
+            "value": "Residential real estate",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525296+00:00"
+          },
+          "RENTAL.available": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525300+00:00"
+          },
+          "RENTAL.start_date": {
+            "value": "2022-05-01",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525549+00:00"
+          },
+          "RENTAL.rental_days": {
+            "value": 365,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525559+00:00"
+          },
+          "RENTAL.personal_days": {
+            "value": 0,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525564+00:00"
+          },
+          "RENTAL.below_market": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525569+00:00"
+          },
+          "RENTAL.residence": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525573+00:00"
+          },
+          "RENTAL.shortstay": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525577+00:00"
+          },
+          "RENTAL.manager": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525583+00:00"
+          },
+          "RENTAL.repairs_assets": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525587+00:00"
+          },
+          "RENTAL.convert": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525591+00:00"
+          },
+          "RENTAL.sold": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525597+00:00"
+          },
+          "RENTAL.participation": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525601+00:00"
+          },
+          "RENTAL.participation_hours": {
+            "value": "Hours log not yet located.",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525606+00:00"
+          },
+          "RENTAL.losses": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525610+00:00"
+          },
+          "RENTAL.self_rental": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525614+00:00"
+          },
+          "RENTAL.qbi": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525618+00:00"
+          },
+          "RENTAL.debt_event": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525621+00:00"
+          }
+        }
+      }
+    ],
+    "PASS": [],
+    "OTHER": [],
+    "HOME": [],
+    "ADJUST": [
+      {
+        "id": "return",
+        "label": "Return",
+        "owner_ids": [],
+        "answers": {}
+      }
+    ],
+    "ITEMIZE": [
+      {
+        "id": "return",
+        "label": "Return",
+        "owner_ids": [],
+        "answers": {}
+      }
+    ],
+    "CHARITY": [],
+    "EDUCATION": [],
+    "CARE": [],
+    "HEALTH": [],
+    "HSA": [],
+    "ENERGY": [],
+    "VEHICLE": [],
+    "FOREIGN": [],
+    "DEBT": [],
+    "DISASTER": [],
+    "GIFT": [],
+    "HOUSEHOLD": [],
+    "FARM": [],
+    "CARRY": [
+      {
+        "id": "return",
+        "label": "Return",
+        "owner_ids": [],
+        "answers": {}
+      }
+    ],
+    "CREDITS": [
+      {
+        "id": "return",
+        "label": "Return",
+        "owner_ids": [],
+        "answers": {}
+      }
+    ],
+    "TAX": [
+      {
+        "id": "return",
+        "label": "Return",
+        "owner_ids": [],
+        "answers": {}
+      }
+    ],
+    "PAY": [
+      {
+        "id": "return",
+        "label": "Return",
+        "owner_ids": [],
+        "answers": {}
+      }
+    ],
+    "SPECIAL": [
+      {
+        "id": "return",
+        "label": "Return",
+        "owner_ids": [],
+        "answers": {}
+      }
+    ],
+    "CLOSE": [
+      {
+        "id": "return",
+        "label": "Return",
+        "owner_ids": [],
+        "answers": {}
+      }
+    ]
+  },
+  "enumerated": {
+    "PERSON": {
+      "complete": true,
+      "entity_ids": [
+        "alex"
+      ],
+      "at": "2026-10-15T00:07:12.524882+00:00",
+      "source": "user"
+    },
+    "STATE": {
+      "complete": true,
+      "entity_ids": [
+        "tx"
+      ],
+      "at": "2026-10-15T00:07:12.524888+00:00",
+      "source": "user"
+    },
+    "WAGE": {
+      "complete": true,
+      "entity_ids": [
+        "harbor",
+        "northstar"
+      ],
+      "at": "2026-10-15T00:07:12.525189+00:00",
+      "source": "user"
+    },
+    "RETIRE": {
+      "complete": true,
+      "entity_ids": [
+        "ira"
+      ],
+      "at": "2026-10-15T00:07:12.525280+00:00",
+      "source": "user"
+    },
+    "RENTAL": {
+      "complete": true,
+      "entity_ids": [
+        "cedar"
+      ],
+      "at": "2026-10-15T00:07:12.525627+00:00",
+      "source": "user"
+    }
+  },
+  "evidence": {
+    "WAGE/northstar/evidence/W2": {
+      "status": "verified",
+      "fingerprint": "3fed6697",
+      "reference": "fictional://northstar/2025/w2/final",
+      "actor": "Demo reviewer",
+      "note": "Synthetic demonstration: matched year, person, employer, all pages, final version and payroll reconciliation.",
+      "checks": {
+        "year": true,
+        "owner": true,
+        "entity": true,
+        "complete": true,
+        "corrections": true,
+        "reconciled": true
+      }
+    },
+    "RETIRE/ira/evidence/R1099": {
+      "status": "located",
+      "fingerprint": "14ac7ff1",
+      "reference": "fictional://atlas/2025/1099r",
+      "actor": "Demo reviewer",
+      "note": "Located; tax-year and conversion reconciliation still needed."
+    },
+    "RENTAL/cedar/evidence/DEPR": {
+      "status": "located",
+      "fingerprint": "2b0f9410",
+      "reference": "fictional://prior-return/asset-schedule",
+      "actor": "Demo reviewer",
+      "note": "Prior depreciation schedule located; current-year additions are not reconciled."
+    }
+  },
+  "reviews": {},
+  "form_decisions": {},
+  "route_decisions": {},
+  "audit": [
+    {
+      "at": "2026-10-15T00:07:12.524767+00:00",
+      "action": "screen",
+      "subject": "WAGE",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524762+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524774+00:00",
+      "action": "screen",
+      "subject": "INVEST",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524772+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524778+00:00",
+      "action": "screen",
+      "subject": "DISPOSE",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524777+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524783+00:00",
+      "action": "screen",
+      "subject": "DIGITAL",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524782+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524787+00:00",
+      "action": "screen",
+      "subject": "RETIRE",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524785+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524790+00:00",
+      "action": "screen",
+      "subject": "BUSINESS",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524789+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524794+00:00",
+      "action": "screen",
+      "subject": "RENTAL",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524792+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524798+00:00",
+      "action": "screen",
+      "subject": "PASS",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524796+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524802+00:00",
+      "action": "screen",
+      "subject": "OTHER",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524800+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524805+00:00",
+      "action": "screen",
+      "subject": "HOME",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524803+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524808+00:00",
+      "action": "screen",
+      "subject": "ADJUST",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524807+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524812+00:00",
+      "action": "screen",
+      "subject": "ITEMIZE",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524810+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524816+00:00",
+      "action": "screen",
+      "subject": "CHARITY",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524814+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524820+00:00",
+      "action": "screen",
+      "subject": "EDUCATION",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524818+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524824+00:00",
+      "action": "screen",
+      "subject": "CARE",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524822+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524828+00:00",
+      "action": "screen",
+      "subject": "HEALTH",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524827+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524832+00:00",
+      "action": "screen",
+      "subject": "HSA",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524830+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524835+00:00",
+      "action": "screen",
+      "subject": "ENERGY",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524834+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524839+00:00",
+      "action": "screen",
+      "subject": "VEHICLE",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524837+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524843+00:00",
+      "action": "screen",
+      "subject": "FOREIGN",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524841+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524846+00:00",
+      "action": "screen",
+      "subject": "DEBT",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524844+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524850+00:00",
+      "action": "screen",
+      "subject": "DISASTER",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524848+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524853+00:00",
+      "action": "screen",
+      "subject": "GIFT",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524851+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524856+00:00",
+      "action": "screen",
+      "subject": "HOUSEHOLD",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524855+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524860+00:00",
+      "action": "screen",
+      "subject": "FARM",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524858+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524863+00:00",
+      "action": "screen",
+      "subject": "SPECIAL",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "user",
+        "reference": "explicit questionnaire answer",
+        "at": "2026-10-15T00:07:12.524862+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524872+00:00",
+      "action": "add_entity",
+      "subject": "PERSON/alex",
+      "before": null,
+      "after": {
+        "id": "alex",
+        "label": "Alex Morgan",
+        "owner_ids": [],
+        "answers": {
+          "PERSON.role": {
+            "value": "Taxpayer",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524967+00:00"
+          },
+          "PERSON.identity": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524971+00:00"
+          },
+          "PERSON.citizenship": {
+            "value": "U.S. citizen all year",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524976+00:00"
+          },
+          "PERSON.age": {
+            "value": 38,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524982+00:00"
+          },
+          "PERSON.blind": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524986+00:00"
+          },
+          "PERSON.disabled": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524992+00:00"
+          },
+          "PERSON.student": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.524997+00:00"
+          },
+          "PERSON.death": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525002+00:00"
+          },
+          "PERSON.claimed_elsewhere": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525007+00:00"
+          }
+        }
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524877+00:00",
+      "action": "add_entity",
+      "subject": "STATE/tx",
+      "before": null,
+      "after": {
+        "id": "tx",
+        "label": "Texas residency / source jurisdiction",
+        "owner_ids": [
+          "alex"
+        ],
+        "answers": {}
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524885+00:00",
+      "action": "enumeration",
+      "subject": "PERSON",
+      "before": null,
+      "after": {
+        "complete": true,
+        "entity_ids": [
+          "alex"
+        ],
+        "at": "2026-10-15T00:07:12.524882+00:00",
+        "source": "user"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524890+00:00",
+      "action": "enumeration",
+      "subject": "STATE",
+      "before": null,
+      "after": {
+        "complete": true,
+        "entity_ids": [
+          "tx"
+        ],
+        "at": "2026-10-15T00:07:12.524888+00:00",
+        "source": "user"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524905+00:00",
+      "action": "answer",
+      "subject": "CORE/return/CORE.year",
+      "before": null,
+      "after": {
+        "value": 2025,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.524902+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524912+00:00",
+      "action": "answer",
+      "subject": "CORE/return/CORE.return_kind",
+      "before": null,
+      "after": {
+        "value": "Original",
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.524910+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524919+00:00",
+      "action": "answer",
+      "subject": "CORE/return/CORE.person_type",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.524916+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524925+00:00",
+      "action": "answer",
+      "subject": "CORE/return/CORE.calendar",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.524923+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524929+00:00",
+      "action": "answer",
+      "subject": "CORE/return/CORE.prior",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.524927+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524934+00:00",
+      "action": "answer",
+      "subject": "CORE/return/CORE.prior_missing",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.524932+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524938+00:00",
+      "action": "answer",
+      "subject": "CORE/return/CORE.notices",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.524936+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524942+00:00",
+      "action": "answer",
+      "subject": "CORE/return/CORE.identity_issue",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.524940+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524946+00:00",
+      "action": "answer",
+      "subject": "CORE/return/CORE.extension",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.524944+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524951+00:00",
+      "action": "answer",
+      "subject": "CORE/return/CORE.special_deadline",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.524948+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524956+00:00",
+      "action": "answer",
+      "subject": "CORE/return/CORE.authorized_sources",
+      "before": null,
+      "after": {
+        "value": "Fictional demo only. No connected account access authorized.",
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.524954+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524962+00:00",
+      "action": "answer",
+      "subject": "CORE/return/CORE.unusual",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.524959+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524969+00:00",
+      "action": "answer",
+      "subject": "PERSON/alex/PERSON.role",
+      "before": null,
+      "after": {
+        "value": "Taxpayer",
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.524967+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524973+00:00",
+      "action": "answer",
+      "subject": "PERSON/alex/PERSON.identity",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.524971+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524978+00:00",
+      "action": "answer",
+      "subject": "PERSON/alex/PERSON.citizenship",
+      "before": null,
+      "after": {
+        "value": "U.S. citizen all year",
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.524976+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524984+00:00",
+      "action": "answer",
+      "subject": "PERSON/alex/PERSON.age",
+      "before": null,
+      "after": {
+        "value": 38,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.524982+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524990+00:00",
+      "action": "answer",
+      "subject": "PERSON/alex/PERSON.blind",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.524986+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524995+00:00",
+      "action": "answer",
+      "subject": "PERSON/alex/PERSON.disabled",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.524992+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.524999+00:00",
+      "action": "answer",
+      "subject": "PERSON/alex/PERSON.student",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.524997+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525004+00:00",
+      "action": "answer",
+      "subject": "PERSON/alex/PERSON.death",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525002+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525008+00:00",
+      "action": "answer",
+      "subject": "PERSON/alex/PERSON.claimed_elsewhere",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525007+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525013+00:00",
+      "action": "add_entity",
+      "subject": "WAGE/northstar",
+      "before": null,
+      "after": {
+        "id": "northstar",
+        "label": "Northstar Studio \u2014 employer 1",
+        "owner_ids": [
+          "alex"
+        ],
+        "answers": {
+          "WAGE.owner": {
+            "value": "Alex Morgan",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525022+00:00"
+          },
+          "WAGE.w2_issued": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525027+00:00"
+          },
+          "WAGE.w2_correct": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525032+00:00"
+          },
+          "WAGE.tips": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525036+00:00"
+          },
+          "WAGE.overtime": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525041+00:00"
+          },
+          "WAGE.equity": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525045+00:00"
+          },
+          "WAGE.statutory": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525049+00:00"
+          },
+          "WAGE.misclassified": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525053+00:00"
+          },
+          "WAGE.benefits": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525057+00:00"
+          },
+          "WAGE.foreign": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525067+00:00"
+          },
+          "WAGE.deferral_excess": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525129+00:00"
+          }
+        }
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525016+00:00",
+      "action": "add_entity",
+      "subject": "WAGE/harbor",
+      "before": null,
+      "after": {
+        "id": "harbor",
+        "label": "Harbor Design \u2014 employer 2",
+        "owner_ids": [
+          "alex"
+        ],
+        "answers": {
+          "WAGE.owner": {
+            "value": "Alex Morgan",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525142+00:00"
+          },
+          "WAGE.w2_issued": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525147+00:00"
+          },
+          "WAGE.w2_correct": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525151+00:00"
+          },
+          "WAGE.tips": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525155+00:00"
+          },
+          "WAGE.overtime": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525159+00:00"
+          },
+          "WAGE.equity": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525163+00:00"
+          },
+          "WAGE.statutory": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525168+00:00"
+          },
+          "WAGE.misclassified": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525171+00:00"
+          },
+          "WAGE.benefits": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525175+00:00"
+          },
+          "WAGE.foreign": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525179+00:00"
+          },
+          "WAGE.deferral_excess": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525183+00:00"
+          }
+        }
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525025+00:00",
+      "action": "answer",
+      "subject": "WAGE/northstar/WAGE.owner",
+      "before": null,
+      "after": {
+        "value": "Alex Morgan",
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525022+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525029+00:00",
+      "action": "answer",
+      "subject": "WAGE/northstar/WAGE.w2_issued",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525027+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525034+00:00",
+      "action": "answer",
+      "subject": "WAGE/northstar/WAGE.w2_correct",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525032+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525038+00:00",
+      "action": "answer",
+      "subject": "WAGE/northstar/WAGE.tips",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525036+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525042+00:00",
+      "action": "answer",
+      "subject": "WAGE/northstar/WAGE.overtime",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525041+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525046+00:00",
+      "action": "answer",
+      "subject": "WAGE/northstar/WAGE.equity",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525045+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525050+00:00",
+      "action": "answer",
+      "subject": "WAGE/northstar/WAGE.statutory",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525049+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525054+00:00",
+      "action": "answer",
+      "subject": "WAGE/northstar/WAGE.misclassified",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525053+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525063+00:00",
+      "action": "answer",
+      "subject": "WAGE/northstar/WAGE.benefits",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525057+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525070+00:00",
+      "action": "answer",
+      "subject": "WAGE/northstar/WAGE.foreign",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525067+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525133+00:00",
+      "action": "answer",
+      "subject": "WAGE/northstar/WAGE.deferral_excess",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525129+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525144+00:00",
+      "action": "answer",
+      "subject": "WAGE/harbor/WAGE.owner",
+      "before": null,
+      "after": {
+        "value": "Alex Morgan",
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525142+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525149+00:00",
+      "action": "answer",
+      "subject": "WAGE/harbor/WAGE.w2_issued",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525147+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525153+00:00",
+      "action": "answer",
+      "subject": "WAGE/harbor/WAGE.w2_correct",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525151+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525157+00:00",
+      "action": "answer",
+      "subject": "WAGE/harbor/WAGE.tips",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525155+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525160+00:00",
+      "action": "answer",
+      "subject": "WAGE/harbor/WAGE.overtime",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525159+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525164+00:00",
+      "action": "answer",
+      "subject": "WAGE/harbor/WAGE.equity",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525163+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525169+00:00",
+      "action": "answer",
+      "subject": "WAGE/harbor/WAGE.statutory",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525168+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525173+00:00",
+      "action": "answer",
+      "subject": "WAGE/harbor/WAGE.misclassified",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525171+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525177+00:00",
+      "action": "answer",
+      "subject": "WAGE/harbor/WAGE.benefits",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525175+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525181+00:00",
+      "action": "answer",
+      "subject": "WAGE/harbor/WAGE.foreign",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525179+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525185+00:00",
+      "action": "answer",
+      "subject": "WAGE/harbor/WAGE.deferral_excess",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525183+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525190+00:00",
+      "action": "enumeration",
+      "subject": "WAGE",
+      "before": null,
+      "after": {
+        "complete": true,
+        "entity_ids": [
+          "harbor",
+          "northstar"
+        ],
+        "at": "2026-10-15T00:07:12.525189+00:00",
+        "source": "user"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525194+00:00",
+      "action": "add_entity",
+      "subject": "RETIRE/ira",
+      "before": null,
+      "after": {
+        "id": "ira",
+        "label": "Traditional IRA \u2014 Atlas Custody",
+        "owner_ids": [
+          "alex"
+        ],
+        "answers": {
+          "RETIRE.owner": {
+            "value": "Alex Morgan",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525202+00:00"
+          },
+          "RETIRE.type": {
+            "value": "Traditional IRA",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525207+00:00"
+          },
+          "RETIRE.contribution": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525212+00:00"
+          },
+          "RETIRE.contribution_details": {
+            "value": "Fictional: 2025 nondeductible contribution followed by a Roth conversion.",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525216+00:00"
+          },
+          "RETIRE.covered_plan": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525220+00:00"
+          },
+          "RETIRE.compensation": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525224+00:00"
+          },
+          "RETIRE.nondeductible": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525228+00:00"
+          },
+          "RETIRE.distribution": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525233+00:00"
+          },
+          "RETIRE.rollover": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525239+00:00"
+          },
+          "RETIRE.conversion": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525243+00:00"
+          },
+          "RETIRE.roth_distribution": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525247+00:00"
+          },
+          "RETIRE.early": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525251+00:00"
+          },
+          "RETIRE.inherited": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525255+00:00"
+          },
+          "RETIRE.rmd": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525259+00:00"
+          },
+          "RETIRE.qcd": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525263+00:00"
+          },
+          "RETIRE.excess": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525267+00:00"
+          },
+          "RETIRE.disaster": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525271+00:00"
+          },
+          "RETIRE.aftertax_plan": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525275+00:00"
+          }
+        }
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525204+00:00",
+      "action": "answer",
+      "subject": "RETIRE/ira/RETIRE.owner",
+      "before": null,
+      "after": {
+        "value": "Alex Morgan",
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525202+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525210+00:00",
+      "action": "answer",
+      "subject": "RETIRE/ira/RETIRE.type",
+      "before": null,
+      "after": {
+        "value": "Traditional IRA",
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525207+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525214+00:00",
+      "action": "answer",
+      "subject": "RETIRE/ira/RETIRE.contribution",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525212+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525218+00:00",
+      "action": "answer",
+      "subject": "RETIRE/ira/RETIRE.contribution_details",
+      "before": null,
+      "after": {
+        "value": "Fictional: 2025 nondeductible contribution followed by a Roth conversion.",
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525216+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525222+00:00",
+      "action": "answer",
+      "subject": "RETIRE/ira/RETIRE.covered_plan",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525220+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525226+00:00",
+      "action": "answer",
+      "subject": "RETIRE/ira/RETIRE.compensation",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525224+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525231+00:00",
+      "action": "answer",
+      "subject": "RETIRE/ira/RETIRE.nondeductible",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525228+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525236+00:00",
+      "action": "answer",
+      "subject": "RETIRE/ira/RETIRE.distribution",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525233+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525240+00:00",
+      "action": "answer",
+      "subject": "RETIRE/ira/RETIRE.rollover",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525239+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525244+00:00",
+      "action": "answer",
+      "subject": "RETIRE/ira/RETIRE.conversion",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525243+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525249+00:00",
+      "action": "answer",
+      "subject": "RETIRE/ira/RETIRE.roth_distribution",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525247+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525253+00:00",
+      "action": "answer",
+      "subject": "RETIRE/ira/RETIRE.early",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525251+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525257+00:00",
+      "action": "answer",
+      "subject": "RETIRE/ira/RETIRE.inherited",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525255+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525261+00:00",
+      "action": "answer",
+      "subject": "RETIRE/ira/RETIRE.rmd",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525259+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525265+00:00",
+      "action": "answer",
+      "subject": "RETIRE/ira/RETIRE.qcd",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525263+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525268+00:00",
+      "action": "answer",
+      "subject": "RETIRE/ira/RETIRE.excess",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525267+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525272+00:00",
+      "action": "answer",
+      "subject": "RETIRE/ira/RETIRE.disaster",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525271+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525276+00:00",
+      "action": "answer",
+      "subject": "RETIRE/ira/RETIRE.aftertax_plan",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525275+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525281+00:00",
+      "action": "enumeration",
+      "subject": "RETIRE",
+      "before": null,
+      "after": {
+        "complete": true,
+        "entity_ids": [
+          "ira"
+        ],
+        "at": "2026-10-15T00:07:12.525280+00:00",
+        "source": "user"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525284+00:00",
+      "action": "add_entity",
+      "subject": "RENTAL/cedar",
+      "before": null,
+      "after": {
+        "id": "cedar",
+        "label": "Cedar Lane rental \u2014 fictional property",
+        "owner_ids": [
+          "alex"
+        ],
+        "answers": {
+          "RENTAL.owner": {
+            "value": "Alex Morgan",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525291+00:00"
+          },
+          "RENTAL.type": {
+            "value": "Residential real estate",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525296+00:00"
+          },
+          "RENTAL.available": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525300+00:00"
+          },
+          "RENTAL.start_date": {
+            "value": "2022-05-01",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525549+00:00"
+          },
+          "RENTAL.rental_days": {
+            "value": 365,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525559+00:00"
+          },
+          "RENTAL.personal_days": {
+            "value": 0,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525564+00:00"
+          },
+          "RENTAL.below_market": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525569+00:00"
+          },
+          "RENTAL.residence": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525573+00:00"
+          },
+          "RENTAL.shortstay": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525577+00:00"
+          },
+          "RENTAL.manager": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525583+00:00"
+          },
+          "RENTAL.repairs_assets": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525587+00:00"
+          },
+          "RENTAL.convert": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525591+00:00"
+          },
+          "RENTAL.sold": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525597+00:00"
+          },
+          "RENTAL.participation": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525601+00:00"
+          },
+          "RENTAL.participation_hours": {
+            "value": "Hours log not yet located.",
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525606+00:00"
+          },
+          "RENTAL.losses": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525610+00:00"
+          },
+          "RENTAL.self_rental": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525614+00:00"
+          },
+          "RENTAL.qbi": {
+            "value": true,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525618+00:00"
+          },
+          "RENTAL.debt_event": {
+            "value": false,
+            "status": "confirmed",
+            "source": "fictional fixture",
+            "reference": "Synthetic scenario; not real evidence",
+            "at": "2026-10-15T00:07:12.525621+00:00"
+          }
+        }
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525293+00:00",
+      "action": "answer",
+      "subject": "RENTAL/cedar/RENTAL.owner",
+      "before": null,
+      "after": {
+        "value": "Alex Morgan",
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525291+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525297+00:00",
+      "action": "answer",
+      "subject": "RENTAL/cedar/RENTAL.type",
+      "before": null,
+      "after": {
+        "value": "Residential real estate",
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525296+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525301+00:00",
+      "action": "answer",
+      "subject": "RENTAL/cedar/RENTAL.available",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525300+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525554+00:00",
+      "action": "answer",
+      "subject": "RENTAL/cedar/RENTAL.start_date",
+      "before": null,
+      "after": {
+        "value": "2022-05-01",
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525549+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525561+00:00",
+      "action": "answer",
+      "subject": "RENTAL/cedar/RENTAL.rental_days",
+      "before": null,
+      "after": {
+        "value": 365,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525559+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525566+00:00",
+      "action": "answer",
+      "subject": "RENTAL/cedar/RENTAL.personal_days",
+      "before": null,
+      "after": {
+        "value": 0,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525564+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525570+00:00",
+      "action": "answer",
+      "subject": "RENTAL/cedar/RENTAL.below_market",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525569+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525575+00:00",
+      "action": "answer",
+      "subject": "RENTAL/cedar/RENTAL.residence",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525573+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525580+00:00",
+      "action": "answer",
+      "subject": "RENTAL/cedar/RENTAL.shortstay",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525577+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525585+00:00",
+      "action": "answer",
+      "subject": "RENTAL/cedar/RENTAL.manager",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525583+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525589+00:00",
+      "action": "answer",
+      "subject": "RENTAL/cedar/RENTAL.repairs_assets",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525587+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525593+00:00",
+      "action": "answer",
+      "subject": "RENTAL/cedar/RENTAL.convert",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525591+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525599+00:00",
+      "action": "answer",
+      "subject": "RENTAL/cedar/RENTAL.sold",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525597+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525603+00:00",
+      "action": "answer",
+      "subject": "RENTAL/cedar/RENTAL.participation",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525601+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525608+00:00",
+      "action": "answer",
+      "subject": "RENTAL/cedar/RENTAL.participation_hours",
+      "before": null,
+      "after": {
+        "value": "Hours log not yet located.",
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525606+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525612+00:00",
+      "action": "answer",
+      "subject": "RENTAL/cedar/RENTAL.losses",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525610+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525615+00:00",
+      "action": "answer",
+      "subject": "RENTAL/cedar/RENTAL.self_rental",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525614+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525619+00:00",
+      "action": "answer",
+      "subject": "RENTAL/cedar/RENTAL.qbi",
+      "before": null,
+      "after": {
+        "value": true,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525618+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525623+00:00",
+      "action": "answer",
+      "subject": "RENTAL/cedar/RENTAL.debt_event",
+      "before": null,
+      "after": {
+        "value": false,
+        "status": "confirmed",
+        "source": "fictional fixture",
+        "reference": "Synthetic scenario; not real evidence",
+        "at": "2026-10-15T00:07:12.525621+00:00"
+      }
+    },
+    {
+      "at": "2026-10-15T00:07:12.525628+00:00",
+      "action": "enumeration",
+      "subject": "RENTAL",
+      "before": null,
+      "after": {
+        "complete": true,
+        "entity_ids": [
+          "cedar"
+        ],
+        "at": "2026-10-15T00:07:12.525627+00:00",
+        "source": "user"
+      }
+    }
+  ],
+  "fixture_notice": "Entirely fictional demonstration. Answers and verification entries are not real taxpayer facts."
+}

@@ -1,0 +1,17 @@
+{
+  "archive": "Tax_Preparation_Complete_Package_2025.zip",
+  "archive_sha256": "acd7e55848748a0e8a671aff348948b63b74c594b941ba0c8568605803403bc0",
+  "catalog_sha256": "1a5b05c16970349ecc0b8cfcdff02c810f55db6c2230f3be106879f94a056f9e",
+  "reference_year": 2025,
+  "catalog_preserved_verbatim": false,
+  "scope": "Packaging and agent interface; no independent legal revalidation",
+  "conversion_changes": [
+    "Packaged engine and planner; removed legacy file-writing script entrypoints",
+    "Kept reference catalog bytes and case schema 2.0 unchanged",
+    "Hardened import validation, closure fields and audit deep copies",
+    "Added argparse JSON protocol, SQLite revision storage, strict operations and agent documentation",
+    "Real-case regression: added DIGITAL.broker_form evidence requirement. The rule adds a document task without calculating tax."
+  ],
+  "base_catalog_sha256": "e6345e9752ef4a18e48984cb0448c9679220b3c6d450b30623d8248825658e8b",
+  "cli_version": "0.1.1"
+}

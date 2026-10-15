@@ -1,0 +1,45 @@
+{
+  "operations": [
+    {
+      "op": "entity_add",
+      "module": "PERSON",
+      "id": "taxpayer",
+      "label": "Fictional taxpayer"
+    },
+    {
+      "op": "answer",
+      "key": "CORE/return/CORE.year",
+      "value": 2025,
+      "source": "fixture",
+      "reference": "Illustrative intake for a fictional 2025 case; not user facts"
+    },
+    {
+      "op": "screen",
+      "module": "WAGE",
+      "value": true,
+      "source": "fixture",
+      "reference": "Illustrative intake identifies one fictional employer"
+    },
+    {
+      "op": "entity_add",
+      "module": "WAGE",
+      "id": "employer",
+      "label": "Fictional employer",
+      "owner_ids": ["taxpayer"]
+    },
+    {
+      "op": "enumerate",
+      "module": "PERSON",
+      "complete": true,
+      "source": "fixture",
+      "reference": "The synthetic example defines exactly one fictional person"
+    },
+    {
+      "op": "enumerate",
+      "module": "WAGE",
+      "complete": true,
+      "source": "fixture",
+      "reference": "The synthetic example defines exactly one fictional employer"
+    }
+  ]
+}

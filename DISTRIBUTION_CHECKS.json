@@ -1,0 +1,7 @@
+{
+  "version": "0.1.1",
+  "zipapp_real_case_executed": true,
+  "wheel_catalog_matches": true,
+  "unit_integration_tests": 115,
+  "test_python": "3.12.14"
+}
