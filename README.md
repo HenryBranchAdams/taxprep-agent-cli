@@ -4,6 +4,38 @@ A noninteractive command-line interface for the 2025 tax intake questionnaire, e
 
 Built with Python 3.10+, [`argparse`](https://docs.python.org/3/library/argparse.html), and SQLite. This standard-library framework keeps installation simple, makes command parsing deterministic, and provides transactions without a service or runtime dependencies. The repository includes source, the bundled catalog, and a build script for a standalone `taxprep.pyz` executable.
 
+## Dependency graph
+
+Illustrative view of the dependencies evaluated within one case revision. Each box groups related work; arrows lead from supporting context to downstream requirements.
+
+```mermaid
+flowchart TD
+    Scope["Topic scope and entity inventory"]
+    Facts["Supported facts"]
+    Rules["Applicable rules"]
+    Evidence["Evidence verification"]
+    Forms["Form decisions"]
+    Reviews["Technical and cross-topic reviews"]
+    Ready["Readiness check"]
+    Handoff["Preparer handoff"]
+
+    Scope --> Facts
+    Scope --> Rules
+    Facts --> Rules
+    Facts --> Reviews
+    Rules --> Evidence
+    Rules --> Forms
+    Rules --> Reviews
+    Evidence --> Ready
+    Forms --> Ready
+    Reviews --> Ready
+    Ready --> Handoff
+```
+
+Unknown answers keep work open. Changed facts or replaced sources can invalidate earlier verification and decisions, requiring fresh review. A handoff preserves remaining open items; the highest readiness state is `READY_FOR_PREPARER_REVIEW`.
+
+The full reference catalog is in [`taxprep/catalog.json`](taxprep/catalog.json).
+
 ## Quickstart
 
 From a clone of this repository:
