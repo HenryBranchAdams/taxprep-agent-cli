@@ -1,12 +1,12 @@
 # Taxprep Agent CLI
 
+> **Illustrative purposes only.** This project and diagram are educational examples, not tax, legal, or financial advice. They may be incomplete or outdated. Verify applicable requirements using current official guidance and consult a qualified tax professional before relying on any output.
+
 A noninteractive command-line interface for the 2025 tax intake questionnaire, evidence workflow, and preparer handoff in the supplied tax preparation package. An agent can discover its next task, record supported facts, track evidence and decisions, and resume from a durable case revision.
 
 Built with Python 3.10+, [`argparse`](https://docs.python.org/3/library/argparse.html), and SQLite. This standard-library framework keeps installation simple, makes command parsing deterministic, and provides transactions without a service or runtime dependencies. The repository includes source, the bundled catalog, and a build script for a standalone `taxprep.pyz` executable.
 
 ## Dependency graph
-
-> **Illustrative purposes only.** This project and diagram are educational examples, not tax, legal, or financial advice. They may be incomplete or outdated. Verify applicable requirements using current official guidance and consult a qualified tax professional before relying on any output.
 
 Illustrative view of the dependencies evaluated within one case revision. Each box groups related work; arrows lead from supporting context to downstream requirements.
 
