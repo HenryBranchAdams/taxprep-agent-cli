@@ -1,7 +1,16 @@
 {
-  "version": "0.1.1",
-  "zipapp_real_case_executed": true,
+  "version": "0.2.0",
+  "unit_integration_tests": 147,
+  "test_python": "3.12.14",
+  "fictional_diagnostics_demo_executed": true,
+  "zipapp_diagnostics_parity": true,
+  "wheel_runtime_checked": true,
   "wheel_catalog_matches": true,
-  "unit_integration_tests": 115,
-  "test_python": "3.12.14"
+  "catalog_sha256": "1a5b05c16970349ecc0b8cfcdff02c810f55db6c2230f3be106879f94a056f9e",
+  "ci_python_matrix": [
+    "3.10",
+    "3.12",
+    "3.13"
+  ],
+  "ci_status": "configured; see pull request checks for remote results"
 }

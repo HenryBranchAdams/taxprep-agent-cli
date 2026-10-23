@@ -36,7 +36,7 @@ flowchart TD
 
 Unknown answers keep work open. Changed facts or replaced sources can invalidate earlier verification and decisions, requiring fresh review. A handoff preserves remaining open items; the highest readiness state is `READY_FOR_PREPARER_REVIEW`.
 
-The full reference catalog is in [`taxprep/catalog.json`](taxprep/catalog.json).
+The full reference catalog is in [`taxprep/catalog.json`](taxprep/catalog.json). `graph` exposes its exact activation dependencies as JSON or Mermaid. The graph describes what opens downstream work; conservative fingerprint checks can also invalidate decisions outside these arrows.
 
 ## Quickstart
 
@@ -56,12 +56,40 @@ The bootstrap is explicitly fictional. It records a sample taxpayer, employer, y
 
 For an installed command, run `python3 -m pip install .`, then use `taxprep`. To build a standalone executable, run `python3 build_release.py` and use `python3 taxprep.pyz` in place of `python3 -m taxprep`. The standalone executable requires no installation or package downloads; the optional pip route requires setuptools to build the package.
 
+## Workflow diagnostics
+
+Query a bounded section of the catalog without creating a case:
+
+```bash
+python3 -m taxprep graph --node DIGITAL.broker_form --direction downstream --depth 2
+python3 -m taxprep graph --module DIGITAL --format mermaid --output digital-workflow.mmd
+```
+
+For an existing case, `explain TASK_KEY` connects an evaluated task to the predicates and upstream facts that activate it. Unknown, conflicting, and inactive facts retain their evaluated states. `diff` compares saved revisions and separates changed records, added requirements, removed tasks, and reopened work:
+
+```bash
+python3 -m taxprep --db demo.sqlite explain WAGE/employer/WAGE.tips
+python3 -m taxprep --db demo.sqlite diff --from 1 --to 2
+```
+
+`apply --dry-run` includes the same change analysis under `data.impact`, without committing or reserving the request ID. A task disappearing from the evaluation is not evidence that it was completed. Replayed requests return their original committed result without a fresh impact preview.
+
+Run the complete fictional example with no setup or external access:
+
+```bash
+python3 examples/diagnostics_demo.py
+# Retain its sample database, graph, explanations, and revision comparisons:
+python3 examples/diagnostics_demo.py --output fictional-diagnostics
+```
+
+The example demonstrates unknown facts, evidence activation, verification, and reopening after a source correction. It deliberately ends `OPEN`. [Workflow diagnostics](docs/WORKFLOW_DIAGNOSTICS.md) explains the output and its limits.
+
 ## Agent workflow
 
 1. Run `next` to get prioritized tasks with search suggestions and acceptance criteria. Use `inspect TASK_KEY`, `questions`, and `catalog` for detail.
 2. Retrieve evidence through the host agent's authorized tools. The CLI itself makes no external calls.
 3. Build a JSON operation batch using `schema`. Keep source references with facts, searches, evidence, and decisions.
-4. Run `apply` with the last observed revision, a stable request ID, and the actor label. Use `--dry-run` to validate first. A failed batch commits nothing.
+4. Run `apply` with the last observed revision, a stable request ID, and the actor label. Use `--dry-run` to validate and review the proposed impact first. A failed batch commits nothing.
 5. Re-read `next` after changes. Use current task fingerprints when verifying evidence or closing decisions.
 6. Run `check`, then `handoff --output NEW_DIRECTORY` to export the case, evaluated report, open items, task queue, and checksum manifest.
 
@@ -96,3 +124,5 @@ python3 -m unittest discover -s tests -v
 ```
 
 Runtime code and catalog are in `taxprep/`; tests are in `tests/`. A build script and test results are included in this repository.
+
+GitHub Actions checks the unit and process-level tests, catalog validation, and standalone executable on the supported Python versions in the workflow matrix.

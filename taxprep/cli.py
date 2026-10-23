@@ -10,7 +10,7 @@ import shutil
 import sys
 import tempfile
 
-from . import __version__, engine as E, planner
+from . import __version__, engine as E, planner, workflow, changes
 from .errors import AppError
 from .operations import apply_operations, operation_schema
 from .store import Store
@@ -58,6 +58,13 @@ def positive(value):
     return value
 
 
+def graph_depth(value):
+    value = int(value)
+    if not 0 <= value <= 10:
+        raise argparse.ArgumentTypeError("Graph depth must be between 0 and 10")
+    return value
+
+
 def parser():
     p = Parser(prog="taxprep", description="Agent CLI for the 2025 tax intake workflow. JSON output; never prompts.")
     p.add_argument("--db", default="taxprep.sqlite", help="One SQLite database per case (put before subcommand)")
@@ -83,6 +90,20 @@ def parser():
     qs.add_argument("--include-inactive", action="store_true")
     ins = sub.add_parser("inspect", help="Inspect one exact case task/question key")
     ins.add_argument("key")
+    explain = sub.add_parser("explain", help="Explain a task's activation, upstream facts, and closure context")
+    explain.add_argument("key", help="Exact case task/question key, as returned by inspect or next")
+    explain.add_argument("--revision", type=positive, help="Evaluate a saved revision instead of the current case")
+    graph = sub.add_parser("graph", help="Query the reference dependency DAG without opening a case")
+    graph_filter = graph.add_mutually_exclusive_group()
+    graph_filter.add_argument("--module", choices=sorted(E.MOD))
+    graph_filter.add_argument("--node", help="Exact catalog node ID; query a bounded neighborhood")
+    graph.add_argument("--direction", choices=["upstream", "downstream", "both"], default="both")
+    graph.add_argument("--depth", type=graph_depth, default=2)
+    graph.add_argument("--format", choices=["json", "mermaid"], default="json")
+    graph.add_argument("--output", help="New file; omit or use - for stdout")
+    diff = sub.add_parser("diff", help="Compare saved revisions, including requirement changes")
+    diff.add_argument("--from", dest="from_revision", required=True, type=positive)
+    diff.add_argument("--to", dest="to_revision", type=positive, help="Defaults to the current committed revision")
     apply = sub.add_parser("apply", help="Validate and atomically commit a JSON operation batch")
     apply.add_argument("--input", required=True, help="JSON file or - for stdin")
     apply.add_argument("--expect", required=True, type=positive, help="Last observed revision")
@@ -184,15 +205,20 @@ def protocol_schema():
     return {"protocol_version": PROTOCOL, "json_default": True, "interactive": False,
             "global_options": {"--db": "Database path; place before command"},
             "commands": ["init", "import-case", "status", "next", "plan", "questions", "inspect", "report", "check",
-                         "apply", "export", "handoff", "history", "catalog", "schema", "doctor"],
+                         "apply", "export", "handoff", "history", "catalog", "schema", "doctor", "graph", "explain", "diff"],
             "success_envelope": {"ok": True, "protocol_version": PROTOCOL, "command": "name", "revision": "integer or null", "data": "object"},
             "error_envelope": {"ok": False, "protocol_version": PROTOCOL, "error": {"code": "stable identifier", "message": "description", "details": "optional"}},
-            "streams": {"success": "stdout", "error": "stderr", "help": "stdout text", "export_stdout": "raw case JSON when --output -"},
+            "streams": {"success": "stdout", "error": "stderr", "help": "stdout text", "export_stdout": "raw case JSON when --output -",
+                        "graph_mermaid_stdout": "raw Mermaid text when --format mermaid and output is omitted or -"},
             "exit_codes": {"0": "Success, including OPEN status", "2": "Invalid arguments, JSON, or data", "3": "Revision, idempotency, catalog, or path conflict",
                            "4": "Missing resource or IO failure", "5": "check found OPEN readiness", "70": "Unexpected internal failure"},
             "mutation": {"command": "apply", "required": ["--expect", "--request-id", "--actor", "--input"],
                          "atomic": True, "retry": "Retry identical payload and actor with the same request ID; reuse with different content is rejected",
-                         "dry_run": "Validates proposed case without committing; returned revision remains the current committed revision"},
+                         "dry_run": "Validates proposed case without committing; returned revision remains the current committed revision; impact compares current and proposed state unless replayed"},
+            "diagnostics": {"graph": {"requires_database": False, "formats": ["json", "mermaid"], "maximum_depth": 10,
+                                       "scope": "Catalog activation dependencies, not all closure invalidation dependencies"},
+                            "explain": {"historical_revision": True, "read_only": True},
+                            "diff": {"read_only": True, "removed_tasks_mean": "No longer evaluated; not proof of completion"}},
             "case_schema_version": "2.0", "catalog_year": 2025, "maximum_readiness": "READY_FOR_PREPARER_REVIEW"}
 
 
@@ -207,6 +233,13 @@ def dispatch(args):
         return {"version": __version__, "python": sys.version.split()[0], "catalog_year": 2025,
                 "modules": len(E.MOD), "questions": len(E.QUESTIONS), "rules": len(E.CAT["rules"]),
                 "graph": {k: graph[k] for k in ["valid", "nodes", "edges"]}, "runtime_dependencies": []}, None, 0
+    if command == "graph":
+        result = workflow.catalog_graph(args.module, args.node, args.direction, args.depth)
+        rendered = workflow.render_mermaid(result) if args.format == "mermaid" else dumps(result)
+        if args.output and args.output != "-":
+            return {"path": secure_write_new(args.output, rendered), "format": args.format,
+                    "node_count": result["node_count"], "edge_count": result["edge_count"]}, None, 0
+        return (rendered, None, -2) if args.format == "mermaid" else (result, None, 0)
     if command == "catalog":
         records = E.CAT[args.kind]
         records = list(records.values()) if isinstance(records, dict) else records
@@ -242,14 +275,33 @@ def dispatch(args):
         return summary(snap), snap["revision"], 0
     if command == "apply":
         payload = load_json(args.input)
+        impact = {}
+
+        def transform(case):
+            proposed = apply_operations(case, payload, args.actor)
+            if args.dry_run:
+                impact.update(changes.compare_cases(case, proposed))
+            return proposed
+
         snap = store.mutate(args.expect, args.request_id, args.actor, payload,
-                            lambda case: apply_operations(case, payload, args.actor), args.dry_run)
-        return {**summary(snap), "replayed": snap["replayed"], "dry_run": snap.get("dry_run", False)}, snap["revision"], 0
+                            transform, args.dry_run)
+        result = {**summary(snap), "replayed": snap["replayed"], "dry_run": snap.get("dry_run", False)}
+        # Replays do not run transform: their result is a prior committed snapshot,
+        # not a fresh preview against the current database revision.
+        if impact:
+            result["impact"] = impact
+        return result, snap["revision"], 0
     if command == "history":
         return {"snapshots": store.history(args.limit)}, None, 0
-    snap = store.read(args.revision if command == "export" else None)
+    if command == "diff":
+        after = store.read(args.to_revision)
+        before = store.read(args.from_revision)
+        return changes.compare_snapshots(before, after), after["revision"], 0
+    snap = store.read(args.revision if command in ("export", "explain") else None)
     case, revision = snap["case"], snap["revision"]
     E.validate_case(case)
+    if command == "explain":
+        return workflow.explain(case, args.key), revision, 0
     if command in ("status", "check"):
         result = summary(snap)
         return result, revision, 5 if command == "check" and result["readiness"] == "OPEN" else 0
@@ -296,6 +348,9 @@ def main(argv=None):
         data, revision, code = dispatch(args)
         if code == -1:
             sys.stdout.write(dumps(data))
+            return 0
+        if code == -2:
+            sys.stdout.write(data)
             return 0
         sys.stdout.write(dumps({"ok": True, "protocol_version": PROTOCOL, "command": args.command or "version",
                                "revision": revision, "data": data}))
