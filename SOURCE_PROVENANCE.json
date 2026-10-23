@@ -13,5 +13,5 @@
     "Real-case regression: added DIGITAL.broker_form evidence requirement. The rule adds a document task without calculating tax."
   ],
   "base_catalog_sha256": "e6345e9752ef4a18e48984cb0448c9679220b3c6d450b30623d8248825658e8b",
-  "cli_version": "0.1.1"
+  "cli_version": "0.2.0"
 }

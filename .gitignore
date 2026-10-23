@@ -23,6 +23,7 @@ cases/
 private/
 reports/
 handoff/
+fictional-diagnostics/
 *case_seed.json
 *case_export.json
 *run_log.json
